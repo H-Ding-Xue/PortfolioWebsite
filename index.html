@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Portfolio Website</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav-header">
+        <span class="nav-msg">Welcome to my Website</span>
+        <button class="fa fa-bars navbutton"></button>
+      </div>
+
+      <ul class="nav-items">
+        <li class="nav-item"><a href="#timelineNav">My Education</a></li>
+        <li class="nav-item"><a href="#projNav">My Projects</a></li>
+        <li class="nav-item"><a href="#tsNav">My Tech Stack</a></li>
+        <li class="nav-item"><a href="#conNav">Contact Me</a></li>
+      </ul>
+    </nav>
+
+    <article class="Banner" id="bannerNav">
+      <div class="ppContainer">
+        <img class="PP" src="images/PP.jpg" alt="My Profile Picture" />
+      </div>
+      <div class="bannerContent">
+        <h1 class="intro">Hi I'm Ding Xue. An aspiring Software Engineer</h1>
+        <span class="desc">
+          Welcome to my portfolio website. Here you can find out more about my
+          education path,skills and projects. Having recently finished
+          university I'm looking forward to starting my journey as a Software
+          Engineer.
+        </span>
+        <div class="cvContainer">
+          <a
+            href="https://drive.google.com/uc?export=download&id=1Ykm6cQvbcRpyfs4B1r0PdDnfpBPwBGUm"
+            class="cvButton"
+          >
+            Download CV
+            <img
+              class="downloadIcon"
+              src="images/downloadIcon.svg"
+              alt="Download Icon"
+            />
+          </a>
+        </div>
+      </div>
+    </article>
+    <h2 class="header" id="timelineNav" data-aos="fade-down">
+      A summary of my journey so far(more details in CV)
+    </h2>
+    <article class="timeline" data-aos="fade-down">
+      <div class="listContainer">
+        <ul class="time-list">
+          <li>
+            <span class="time">April 2015 - March 2018</span>
+            <h3 class="timelineItemHeader">Nanyang Polytechnic</h3>
+            <p class="timelineItemContent">
+              Studied and graduated with a Diploma in Cyber Security and
+              Forensics
+            </p>
+          </li>
+
+          <li>
+            <span class="time">September 2020 - March 2022</span>
+            <h3 class="timelineItemHeader">SIMGE University of Wollongong</h3>
+            <p class="timelineItemContent">
+              Studied and graduated with a Bachelor in Computer Science. Majored
+              in Cyber Security
+            </p>
+          </li>
+
+          <li>
+            <span class="time">Since 2021</span>
+            <h3 class="timelineItemHeader">Online Self Learning</h3>
+            <p class="timelineItemContent">
+              Self Learned topics such as data structures and algorithms and
+              front end programming and whatever technologies needed at work
+              that I was not familiar with from places such as Free code camp,
+              Code with Mosh and Udemy.
+            </p>
+          </li>
+
+          <li>
+            <span class="time">May 2022 till present</span>
+            <h3 class="timelineItemHeader">First Job at NCS</h3>
+            <p class="timelineItemContent">
+              Found a very fufiling job at NCS where I got to learn many new
+              technologies I had not learnt in school such as Spring Hibernate
+              and Adobe form designer. Participated in development, production
+              support, deployment and much more.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </article>
+
+    <h2 class="header" id="projNav">
+      My Projects (More detailed descriptions in CV and GIT)
+    </h2>
+    <article class="projects" data-aos="fade-down">
+      <div class="project project-one">
+        <div class="projectText projectText-one">
+          <h3 class="projTitle">Trace United</h3>
+          <p class="projDesc">
+            A healthcare app similar to trace united and health buddy devloped
+            with Java, Java Swing and MSSQL.
+          </p>
+          <div class="ghLinkContainer">
+            <a
+              class="ghLink"
+              href="https://github.com/H-Ding-Xue/Trace-United"
+              target="_blank"
+              ><img src="images/ghLink.png" alt="github link"
+            /></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project project-two">
+        <div class="projectText projectText-two">
+          <h3 class="projTitle">Virtual Assistant</h3>
+          <p class="projDesc">
+            A web app with AI models to assist developers. Developed with HTML,
+            CSS, JS, Scikit-learn, Python and flask
+          </p>
+          <div class="ghLinkContainer">
+            <a
+              class="ghLink"
+              href="https://github.com/H-Ding-Xue/Virtual-assistant-for-programmers"
+              target="_blank"
+              ><img src="images/ghLink.png" alt="github link"
+            /></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project project-three">
+        <div class="projectText projectText-three">
+          <h3 class="projTitle">Equipment Rental App</h3>
+          <p class="projDesc">
+            An equipment rental website developed using HTML, CSS, Bootstrap,
+            PHP, MYSQL and XAMPP.
+          </p>
+          <div class="ghLinkContainer">
+            <a
+              class="ghLink"
+              href="https://github.com/H-Ding-Xue/Equipment-rental"
+              target="_blank"
+              ><img src="images/ghLink.png" alt="github link"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <article class="techStack">
+      <h2 class="header" id="tsNav">My Tech Stack</h2>
+      <h3 class="expHeader">Technologies I have experience with</h3>
+      <div class="exp" data-aos="fade-down">
+        <div class="stackItem">
+          <img class="tsImg" src="images/TS_Images/html.png" alt="HTML" />
+          <span class="tsText">HTML</span>
+        </div>
+
+        <div class="stackItem">
+          <img class="tsImg" src="images/TS_Images/css.png" alt="CSS" />
+          <span class="tsText">CSS</span>
+        </div>
+
+        <div class="stackItem">
+          <img class="tsImg" src="images/TS_Images/js.png" alt="Javascript" />
+          <span class="tsText">Javascript</span>
+        </div>
+
+        <div class="stackItem">
+          <img class="tsImg" src="images/TS_Images/python.png" alt="Python" />
+          <span class="tsText">Python</span>
+        </div>
+
+        <div class="stackItem">
+          <img class="tsImg" src="images/TS_Images/csharp.svg" alt="C#" />
+          <span class="tsText">C#</span>
+        </div>
+
+        <div class="stackItem">
+          <img class="tsImg" src="images/TS_Images/java.png" alt="Java" />
+          <span class="tsText">Java</span>
+        </div>
+
+        <div class="stackItem">
+          <img class="tsImg" src="images/TS_Images/php.png" alt="PHP" />
+          <span class="tsText">PHP</span>
+        </div>
+
+        <div class="stackItem">
+          <img class="tsImg" src="images/TS_Images/mysql.png" alt="MYSQL" />
+          <span class="tsText">MYSQL</span>
+        </div>
+
+        <div class="stackItem">
+          <img class="tsImg" src="images/TS_Images/mssql.png" alt="MSSQL" />
+          <span class="tsText">MSSQL</span>
+        </div>
+
+        <div class="stackItem">
+          <img class="tsImg" src="images/TS_Images/flask.png" alt="Flask" />
+          <span class="tsText">Flask</span>
+        </div>
+
+        <div class="stackItem">
+          <img class="tsImg" src="images/TS_Images/dotnet.png" alt=".NET" />
+          <span class="tsText">.NET</span>
+        </div>
+
+        <div class="stackItem">
+          <img class="tsImg" src="images/TS_Images/GitHub.png" alt="GIT" />
+          <span class="tsText">GIT</span>
+        </div>
+
+        <div class="stackItem">
+          <img class="tsImg" src="images/TS_Images/spring.png" alt="Spring" />
+          <span class="tsText">Spring</span>
+        </div>
+
+        <div class="stackItem">
+          <img
+            class="tsImg"
+            src="images/TS_Images/hibernate.png"
+            alt="Hibernate"
+          />
+          <span class="tsText">Hibernate</span>
+        </div>
+
+        <div class="stackItem">
+          <img class="tsImg" src="images/TS_Images/maven.png" alt="Maven" />
+          <span class="tsText">Maven</span>
+        </div>
+      </div>
+      <h3 class="expHeader">
+        Technologies I have experimented with or am currently learning
+      </h3>
+      <div class="learning" data-aos="fade-down">
+        <div class="stackItem">
+          <img class="tsImg" src="images/TS_Images/react.png" alt="REACT" />
+          <span class="tsText">REACT</span>
+        </div>
+
+        <div class="stackItem">
+          <img class="tsImg" src="images/TS_Images/nodejs.png" alt="Node JS" />
+          <span class="tsText">NodeJS</span>
+        </div>
+
+        <div class="stackItem">
+          <img class="tsImg" src="images/TS_Images/mongo.png" alt="MONGO DB" />
+          <span class="tsText">MONGO DB</span>
+        </div>
+
+        <div class="stackItem">
+          <img class="tsImg" src="images/TS_Images/Angular.png" alt="Angular" />
+          <span class="tsText">Angular</span>
+        </div>
+
+        <div class="stackItem">
+          <img class="tsImg" src="images/TS_Images/bs.png" alt="Bootstrap" />
+          <span class="tsText">Bootstrap</span>
+        </div>
+
+        <div class="stackItem">
+          <img class="tsImg" src="images/TS_Images/cplusplus.png" alt="C++" />
+          <span class="tsText">C++</span>
+        </div>
+      </div>
+    </article>
+
+    <h2 class="header" id="conNav">Contact Me</h2>
+    <article class="contact" data-aos="fade-down">
+      <span class="contactItem"
+        ><span class="contactLead">Email</span>: hdingxue@gmail.com
+      </span>
+    </article>
+
+    <script src="js/index.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
